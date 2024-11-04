@@ -1,10 +1,7 @@
-# Entorno de Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-
-# Entornos virtuales
 venv/
 env/
 ENV/
