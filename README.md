@@ -25,8 +25,8 @@ Para obtener estadísticas, selecciona el request GET en Postman para ver el nú
 
 Postman se ejecutara en esta URL: http://127.0.0.1:5000/
 
-## Tecnologías Utilizadas
-
-- Flask
-- SQLAlchemy
-- Pytest (para pruebas)
+## Como esta dockreizado y hosteado con render solo hace falta abrir postman y poner las siguientes url:
+### Para realizar POST  
+https://parcialds-wsbn.onrender.com/mutant
+### Para realizar GET  
+https://parcialds-wsbn.onrender.com/stats
