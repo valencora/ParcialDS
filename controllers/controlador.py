@@ -21,3 +21,8 @@ def is_mutant():
 def stats():
     stats_data = service.get_statistics()
     return jsonify(stats_data), 200
+
+
+@mutant_blueprint.route('/health', methods=['GET'])
+def health():
+    return jsonify({"status": "healthy"}), 200
